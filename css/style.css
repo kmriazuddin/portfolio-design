@@ -19,6 +19,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 .nav-title{
     color: #181818;
@@ -36,4 +37,36 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+.header{
+    background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 600px;
+}
+.banner .profile-picture{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 75px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.banner-description{
+    margin-bottom: 25px;
 }
